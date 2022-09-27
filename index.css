@@ -1,0 +1,52 @@
+.main-title {
+  position: relative;
+  top: 50px;
+  left: 70px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.created-by {
+  position: relative;
+  top: 80px;
+  font-size: larger;
+  font-weight: normal;
+  left: 70px;
+}
+html {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.name {
+  position: relative;
+  position: relative;
+  left: 160px;
+  top: 55px;
+  font-size: larger;
+  font-weight: normal;
+  font-family: 'Comic Sans MS';
+}
+
+.title {
+  position: relative;
+  top: 100px;
+  font-size: larger;
+  font-weight: bold;
+  left: 70px;
+}
+
+
+
+.text {
+  position: relative;
+  top: 100px;
+  font-size: larger;
+  left: 70px;
+}
