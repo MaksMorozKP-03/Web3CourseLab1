@@ -1,0 +1,37 @@
+.main-title {
+  
+  top:20px;
+  font-size: xx-large;
+  font-weight: bold;
+  height: 0;
+}
+
+.created-by {
+  
+  top:60px;
+  font-size: larger;
+  font-weight: normal;
+}
+
+.name {
+  position: relative;
+  left: 255px;
+  top: 15px;
+  font-size: larger;
+  font-weight: normal;
+  font-family: 'Comic Sans MS';
+}
+.title {
+  top: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+.main-title, .created-by, .title,.text {
+  position: relative;
+  left: 10%;
+}
+.text {
+  top: 20px;
+  font-size: larger;
+
+}
