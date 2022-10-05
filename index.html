@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <title>CSS User Profile Card</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 
 <body>
-    <p class="main-title">Welcome!</p>
-    <p class="created-by">Created by:</p>
-    <p class="name">Maksym Moroz</p>
-    <p class='title'>Description:</p>
-    <p class='text'>-------------</p>
-    <p class='title'> Expectations:</p>
-    <p class='text'>-------------</p>
-    <p class='title'> Experience:</p>
-    <p class='text'>-------------</p>
+    <div class="wrapper">
+        <div class="left">
+            <img src="./image.jpg" alt="user" width="100">
+            <h4>Maksym Moroz</h4>
+            <p>KP-03</p>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Information</h3>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>Email</h4>
+                        <p>maskmoroz@gmail.com</p>
+                    </div>
+                    <div class="data">
+                        <h4>About</h4>
+                        <p style="font-style: italic;">Let this field be empty</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>Other</h3>
+                <div class="projects_data">
+                    <div class="data">
+                        <h4>Experience</h4>
+                        <p>4 month of software engineering</p>
+                    </div>
+                    <div class="data">
+                        <h4>Expectations</h4>
+                        <p style="font-style: italic;">Let this field be empty</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social_media">
+                <ul>
+                    <li><a href="https://uk-ua.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
